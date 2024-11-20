@@ -76,6 +76,8 @@ dependencies:
   logging: ^1.2.0
   file_picker: ^8.0.0+1
 
+  receive_sharing_intent: ^1.8.1
+
 # This is uncommented in F-Droid build script
 # Taken from https://github.com/Myzel394/locus/blob/445013d22ec1d759027d4303bd65b30c5c8588c8/pubspec.yaml#L105
 dependency_overrides:
