@@ -144,6 +144,10 @@ class ImmichApp extends ConsumerStatefulWidget {
 
 class ImmichAppState extends ConsumerState<ImmichApp>
     with WidgetsBindingObserver {
+  
+  late StreamSubscription _intentSub;
+  final _sharedFiles = <SharedMediaFile>[];
+
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
     switch (state) {
